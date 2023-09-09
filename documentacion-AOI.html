@@ -4,8 +4,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
   <title>Examen UF1644</title>
+  <style>
+
+    body {
+      background-color: white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      width: 100%;
+      margin: 5px;
+      padding: 15px;
+    }
+
+    h1 {
+      color: black;
+      text-align: center;
+      margin: 0px;
+    }
+
+    .linea_titulo {
+      border: 1px solid black;
+      width: 250px;
+    }
+
+    main {
+      width: 95%;
+      padding: 0px 10px 10px 10px;
+      border: 3px solid black;
+
+    }
+
+    p {
+      width: 80%;
+    }
+
+    .ejercicio_1 {
+      width: 85%;
+
+    }
+
+    img {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: -75px;
+      max-width: 100%;
+      border: 3px groove black;
+      border-radius: 50px;
+    }
+  </style>
 </head>
 
 <body>
@@ -19,11 +64,13 @@
       <div class="ejercicio_1">
         <li style="font-weight: bold;">
           <h3>Enunciado: </h3>
-          - Instala, activa y muestra en tu Wordpress algún plugin que permita mostrar noticias
-          económicas/financieras. <br>
-          - Realiza las capturas de pantalla correspondientes en el área de plugins con las que se
-          pueda visualizar el plugin instalado/activado y al menos dos capturas que muestren el
-          despliegue en el sistema.
+          <p>
+              - Instala, activa y muestra en tu Wordpress algún plugin que permita mostrar noticias
+              económicas/financieras. <br>
+              - Realiza las capturas de pantalla correspondientes en el área de plugins con las que se
+              pueda visualizar el plugin instalado/activado y al menos dos capturas que muestren el
+              despliegue en el sistema.
+          </p>
         </li>
         <h4>Solución: </h4>
         <p>Para la instalación de este plugin se seguirán los siguientes pasos:</p>
@@ -40,20 +87,22 @@
           </li>
           <li> Creación y uso del AppKey:
             <ol>
-              <li>Para utilizar este plugin es necesario estar registrado en la página de Stockdio, una vez
-                hecho, esta devuelve un código que se asociara con el plugin en el wordpress.
+              <li><p>
+                  Para utilizar este plugin es necesario estar registrado en la página de Stockdio, una vez
+                    hecho, esta devuelve un código que se asociara con el plugin en el wordpress.
+              </p>
                 <img src="assets/img/Plugin-3/3 Crear app key.png" alt="Appkey generación ">
                 <p>En el momento de crear la appkey, se muestran dos cosas, una es la <strong>AppKey</strong>, y otra
                   es un código html, que contiene una <storng>etiqueta &lt;iframe></storng>. Estas dos utilidades
-                  permiten la muestra de información en la web, ada una de una forma. Se describen los pasos
+                  permiten la muestra de información en la web, cada una de una forma. Se describen los pasos
                   para cada una a continuación:
                 </p>
                 <ol>
                   <li>º Forma: Con la etiqueta <strong>iframe</strong></li>
                   <p>- Entrar en la página de <a href="https://services.stockdio.com/signup"
                       target="_blank">Stockdio</a> con la cuenta creada previamente. <br>
-                    Ahí se muestran varias graficas, tablas, sliders de noticias, que se pueden implementar en el
-                    wordpress. Para ello hay que entrar en uno de ellos y en la sección "Request Code" copiar toda la
+                    - Ahí se muestran varias graficas, tablas, sliders de noticias, que se pueden implementar en el
+                    wordpress. <br>- Para ello hay que entrar en uno de ellos y en la sección "Request Code" y copiar toda la
                     etiqueta &lt;iframe>
                   </p>
                   <img src="assets/img/Plugin-3/11 iframe ejemplo.png" alt="iframe ejemplo">
